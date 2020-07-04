@@ -5,7 +5,7 @@
 
 #mv $@ $TMP_DIR
 
-trash_dir=/home/`whoami`/.trash/`date +%Y%m%d.%H%M%S`      #自己创建的文件夹的路径
+trash_dir=/home/yangqj/.trash/`date +%Y%m%d`      #自己创建的文件夹的路径
 
 if [ ! -d ${trash_dir} ] ;then
     mkdir -p ${trash_dir}
